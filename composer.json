@@ -1,0 +1,28 @@
+{
+    "name": "ronappleton/expframe2",
+    "type": "project",
+    "require": {
+        "illuminate/routing": "^6.6",
+        "illuminate/support": "^6.6",
+        "illuminate/database": "^6.6",
+        "vlucas/phpdotenv": "^4.0",
+        "illuminate/events": "^6.6",
+        "illuminate/config": "^6.6",
+        "illuminate/filesystem": "^6.6"
+    },
+    "authors": [
+        {
+            "name": "Ronald Appleton",
+            "email": "ronald.appleton@visualsoft.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Models\\": "models/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
