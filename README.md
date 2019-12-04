@@ -5,7 +5,7 @@ ExpFrame is a real simple micro framework made of laravel bits.
 
 Features
 
-Config
-Database
-Routing
-Events
+ - Config
+ - Database
+ - Routing
+ - Events
